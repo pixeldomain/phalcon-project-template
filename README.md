@@ -8,4 +8,5 @@ Based on the template generated using `phalcon project` from the Phalcon DevTool
 
 ## Usage
 
-`git clone https://github.com/pixeldomain/phalcon-project-template.git && rm -rf phalcon-project-template/.git`
+`git clone https://github.com/pixeldomain/phalcon-project-template.git`
+`&& rm -rf phalcon-project-template/.git`
