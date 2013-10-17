@@ -1,7 +1,10 @@
 <?php
 
+namespace App\Models;
 
-class Sample extends \Phalcon\Mvc\Model
+use Phalcon\Mvc\Model;
+
+class Sample extends Model
 {
 
 }

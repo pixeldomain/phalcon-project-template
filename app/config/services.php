@@ -101,8 +101,20 @@ $di->set('dispatcher', function() use ($di) {
             }
         );
         $dispatcher = new Dispatcher();
+        $dispatcher->setDefaultNamespace('App\Controllers');
         $dispatcher->setEventsManager($evManager);
         return $dispatcher;
     },
     true
 );
+
+
+/**
+ * Controllers that require dependencies
+ */
+$di->set('App\Controllers\IndexController', function() use ($di) {
+    $indexController = new \App\Controllers\IndexController();
+    $indexController->init(new \App\Services\Example());
+    return $indexController;
+});
+

@@ -5,8 +5,10 @@ Based on the template generated using `phalcon project` from the Phalcon DevTool
 - Bootstrap integrated
 - Addition of an error controller to handle 404s
 - PostgreSQL set as the default DB
+- Namespace usage
+- Addition of a service (Phalcon "Plugin") layer
 
 ## Usage
 
-`git clone https://github.com/pixeldomain/phalcon-project-template.git \`   
+`git clone https://github.com/pixeldomain/phalcon-project-template.git \`
 `&& rm -rf phalcon-project-template/.git`
